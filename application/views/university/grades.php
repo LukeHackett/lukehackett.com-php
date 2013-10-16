@@ -16,7 +16,7 @@
         <td><?php echo $assessment->code; ?></td>
         <td><?php echo $assessment->name; ?></td>
         <td><?php echo sprintf("%d%% (%s)", $assessment->module_grade, $assessment->module_result); ?></td>
-        <td><button class="btn btn-small btn-primary grade" type="button">Assessments</button></td>
+        <td><button class="btn btn-sm btn-primary grade" type="button">Assessments</button></td>
       </tr>
       <tr class="<?php echo $assessment->code; ?>" style="display: none;">
         <th>Assessment</th>
