@@ -29,11 +29,9 @@
       <p>You can contact me via:</p>
       <ul>
         <li>
-          <i class="icon-twitter-sign"></i> 
           <a href="https://twitter.com/luke_hackett">Twitter</a>
         </li>
         <li>
-          <i class="icon-linkedin-sign"></i> 
           <a href="https://www.linkedin.com/pub/luke-hackett/82/561/423">LinkedIn</a>
         </li>
       </ul>
