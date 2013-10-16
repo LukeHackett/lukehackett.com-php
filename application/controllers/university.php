@@ -7,7 +7,7 @@ class University extends MY_Controller {
    */
   function __construct()
   {
-    parent::__construct("main");
+    parent::__construct();
     $this->load->model('University_Model', 'university');
     $this->carabiner->js('grades.js');
   }

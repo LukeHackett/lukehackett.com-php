@@ -17,32 +17,17 @@ class MY_Controller extends CI_Controller {
 
   private $_definitions = array();
     
-  public function __construct($theme) {
+  public function __construct() {
     parent::__construct();  
+
+    // Load CSS
+    $this->carabiner->css('bootstrap.min.css');
+    $this->carabiner->css('sidenav.css');
     
-    if($theme == "main"){
-      // Load CSS
-      $this->carabiner->css('bootstrap.min.css');
-      $this->carabiner->css('main.css');
-      
-      // Load JS
-      $this->carabiner->js('jquery.min.js');
-      $this->carabiner->js('bootstrap.min.js');
-      $this->carabiner->js('global.js');
-    }
-
-    if($theme == "simple"){
-      // Load CSS
-      $this->carabiner->css('jquery.fullPage.css');
-      $this->carabiner->css('simple.css');
-
-      // Load JS
-      $this->carabiner->js('jquery.min.js');
-      $this->carabiner->js('jquery-ui.min.js');
-      $this->carabiner->js('jquery.fullPage.min.js');
-      $this->carabiner->js('d3.min.js');
-      $this->carabiner->js('d3.layout.cloud.js');
-    }
+    // Load JS
+    $this->carabiner->js('jquery.min.js');
+    $this->carabiner->js('bootstrap.min.js');
+    $this->carabiner->js('global.js');
         
     // Determining if the request was made by ajax or not 
     $this->ajax = (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest');    
