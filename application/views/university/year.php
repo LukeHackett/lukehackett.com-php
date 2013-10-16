@@ -6,7 +6,7 @@
 </div>
 
 <div class="container">
-  <div class="row">
+  <div class="row-fluid">
     <!-- Mini Sidebar -->
     <?php $this->load->view('university/sidebar'); ?>
     <!-- Page Content -->    
