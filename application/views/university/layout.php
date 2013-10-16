@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Luke Hackett">
-    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="shortcut icon" href="<?php echo base_url("assets/img/favicon.png");?>">
     <title>Luke Hackett :: Software Engineer</title>
 
     <!-- CSS -->
