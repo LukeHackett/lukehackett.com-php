@@ -68,13 +68,13 @@
 
       <h3>Year 5</h3>
       <ul>
-        <li>Group Project</li>
         <li>Advanced Software Development</li>
-        <li>Methods and Modelling</li>
-        <li>Effective Research and Professional Practice</li>
         <li>Change and Project Management</li>
-        <li>Web and Network Services</li>
+        <li>Effective Research and Professional Practice</li>
+        <li>Group Project</li>
         <li>Internet Applications Development</li>
+        <li>Parallel Computer Architectures &amp; Computer Clusters</li>
+        <li>Web and Network Services</li>
       </ul>
 
     </div>
