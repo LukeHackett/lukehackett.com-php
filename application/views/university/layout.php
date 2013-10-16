@@ -9,11 +9,6 @@
 
     <!-- CSS -->
     <?php echo $this->carabiner->display('css'); ?>
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
-    <!--[if IE 7]>
-      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css">
-    <![endif]-->
-
 
     <!-- JS -->
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
